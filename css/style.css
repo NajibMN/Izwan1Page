@@ -432,3 +432,49 @@
     padding-right: 0;
     border-right: none;
 }
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	left:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+.button{
+    position:relative;
+    color: #fff !important;
+    background-color: #C92926;
+    background-color: hsla(1, 68%, 47%, 0.85);
+    box-shadow: 0 3px 0 #A32A26, 1px 1px 8px #ccc;
+    border-radius: 3px;
+    padding: .5em .9em;
+    font-weight: 300;
+    font-size: 1em;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .button:active {
+    background-color: #C92926;
+    background-color: hsla(1, 68%, 47%, 0.85);
+    box-shadow: 0 2px 0 #C92926, 1px 1px 8px #ccc;
+    top: 1px;
+    transition: all 0s linear;
+  }
+  .button-area{
+    text-align:center;
+    margin:3em;
+  }  
